@@ -63,14 +63,10 @@ public class ATM {
                         doBusiness();
                         homePage();
                     }
-                    else {
-                        continue;
-                    }
-
                 }
                 else{
                     System.out.println("您输入的卡号不存在，请重新输入");
-                    continue;
+                    //continue;
                 }
 
             }
@@ -112,7 +108,7 @@ public class ATM {
             gender = sc.nextLine().charAt(0);
             if(gender != '男' && gender !='女'){
                 System.out.println("请输入正确的性别");
-                continue;
+               // continue;
             }
             else {
                 break;
