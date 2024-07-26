@@ -8,6 +8,7 @@ public class Account {
     private double balance;
     private double limitation;
 
+
     public Account(String userName, char gender, String password, double balance, double limitation, String userID) {
         this.userName = userName;
         this.gender = gender;
